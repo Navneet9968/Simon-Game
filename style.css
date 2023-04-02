@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* heading style */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+
+    padding: 5%;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    color: #baf73c;
+    
+}
+
+/* box-styling */
+.boxes{
+    display: grid;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+.box{
+    border: black solid 10px;
+    margin: 20px;
+    height: 220px;
+    width: 230px;
+    /* display: flex; */
+    border-radius: 20%;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    line-height: 200px;
+    cursor: pointer;
+}
+.box-1{
+    background-color: green;
+    justify-self: end;
+    
+    
+    
+}
+.box-2{
+    background-color: red;
+    
+}
+.box-3{
+    justify-self: end;
+    background-color: yellow;
+}
+.box-4{
+    background-color: blue;
+}
+
+.pressed-button{
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+.hint-button{
+    opacity: 50%;
+}
+body{
+    background-color: #222222 ;
+}
+
+.redBG{
+    background-color: red;
+}
+
+
+
+
